@@ -1,0 +1,103 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#hero {
+    background-image: url('https://via.placeholder.com/1920x600');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 150px 0;
+}
+
+#geography img {
+    max-width: 100%;
+}
+
+#services .col-md-3 {
+    padding: 20px;
+}
+
+#projects .card {
+    transition: transform 0.3s;
+}
+
+#projects .card:hover {
+    transform: translateY(-10px);
+}
+
+#blog .card {
+    border: none;
+    transition: transform 0.3s;
+}
+
+#blog .card:hover {
+    transform: scale(1.05);
+}
+/* Navbar Styling */
+.navbar {
+    font-family: Arial, sans-serif;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar-brand .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    color: #333;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.btn-outline-dark {
+    border: 1px solid #333;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+.btn-outline-dark:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.btn-outline-secondary {
+    border: 1px solid #8a6d5a;
+    color: #8a6d5a;
+    font-size: 0.9rem;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #8a6d5a;
+    color: #fff;
+}
+
+.language-switcher {
+    font-size: 0.9rem;
+}
+
+.language-switcher .separator {
+    color: #ccc;
+}
+
+.language-switcher span {
+    cursor: pointer;
+}
+
+.language-switcher .fw-bold {
+    color: #000;
+}
+
+.language-switcher .me-2 {
+    color: #888;
+}
